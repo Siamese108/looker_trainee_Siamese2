@@ -3,7 +3,7 @@ view: sales_data {
   derived_table: {
     sql:
     select *
-    from "DATE_SETS.sales_data";;}
+    from "DATA_SETS.sales_data";;}
 
   # No primary key is defined for this view. In order to join this view in an Explore,
   # define primary_key: yes on a dimension that has no repeated values.
